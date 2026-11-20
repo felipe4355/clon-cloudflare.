@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Acesso a uma videoaula educativa sobre score de crédito e organização financeira.">
+  <title>Checkout | Videoaula educativa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    @font-face{font-family:"FA Brands";src:url("../fonts/fa-brands-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+    .pix-mark{font-family:"FA Brands";font-style:normal;font-weight:400;font-size:17px;line-height:1}
+    .pix-mark:before{content:"\e43a"}
+    :root{--purple:#7815d1;--purple2:#9b28df;--ink:#172033;--muted:#647084;--line:#e0e4eb;--bg:#f2f3f6}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:Inter,Arial,sans-serif;color:var(--ink)}
+    .banner-image{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}.announcement{width:100%;box-sizing:border-box;margin:0 auto 18px;padding:9px 18px;background:linear-gradient(100deg,#8614d4,#a51be5 55%,#7b12c5);color:#fff;text-align:center;font-size:clamp(12px,1.35vw,16px);font-weight:700;line-height:1.35;letter-spacing:.05px}.announcement strong{color:#ffe500}.announcement .bolt{color:#ffe500;font-size:1.12em}
+    .banner-top{margin:0 auto 18px}.banner-bottom{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:auto;margin:17px auto 0;border-radius:13px;box-shadow:0 3px 12px #43107816;object-fit:contain}
+    main{width:min(100% - 28px,470px);margin:24px auto 40px}
+.lesson-image{display:block;width:100%;max-width:500px;height:auto;margin:0 auto 18px;border-radius:13px;box-shadow:0 5px 18px #3e08721c}
+    .hero{aspect-ratio:1200/450;min-height:160px;display:flex;flex-direction:column;justify-content:center;background:linear-gradient(135deg,#6410bd,#9823df 60%,#4e0b9c);color:#fff;border-radius:13px;padding:clamp(14px,4vw,24px);position:relative;overflow:hidden;box-shadow:0 5px 18px #3e08721c}
+    .hero:after{content:"";position:absolute;width:210px;height:210px;border:1px solid #ffffff30;border-radius:50%;right:-70px;top:-100px;box-shadow:0 0 0 25px #ffffff0b,0 0 0 55px #ffffff08}.hero-art{display:flex;align-items:center;gap:14px;margin-bottom:14px}.play-bubble{width:58px;height:58px;flex:none;border-radius:17px;background:#ffffff20;border:1px solid #ffffff55;display:grid;place-items:center;font-size:27px}.hero-art strong{font-size:13px;display:block}.hero-art span{font-size:11px;color:#f0ddff}.country{border:0;background:transparent;color:#273247;font:700 10px Inter,Arial;cursor:pointer;padding:5px;display:inline-flex;align-items:center;gap:6px}.country svg{width:18px;height:13px;display:block;border-radius:2px;box-shadow:0 0 0 1px #00000018}.country:hover{color:var(--purple)}.trust-banner{aspect-ratio:1200/450;min-height:160px;margin-top:17px;border-radius:13px;overflow:hidden;background:linear-gradient(105deg,#6810bd,#8c1cda 48%,#f7efff 48%,#fff);border:1px solid #dfc9f3;box-shadow:0 3px 12px #43107816;padding:clamp(14px,4vw,24px);display:grid;grid-template-columns:1.05fr 1fr;align-items:center;gap:10px}.trust-left{color:#fff;font-weight:800;font-size:13px}.trust-left small{display:block;font-size:10px;font-weight:500;margin-top:5px;opacity:.9}.trust-right{display:flex;justify-content:space-around;gap:6px;color:#502078;text-align:center;font-size:10px;font-weight:700}.trust-right b{display:block;font-size:21px;margin-bottom:4px;color:#811bd1}.trust-title{font-size:16px;font-weight:800;color:#24132f;margin:0 0 4px}.trust-sub{font-size:10px;color:#63566e;margin:0}.trust-icons{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:10px}.trust-icons div{background:#f8f3fc;border-radius:9px;padding:10px 5px;text-align:center;font-size:10px;color:#49305d;font-weight:700}.trust-icons b{display:block;font-size:19px;color:#7b17ce;margin-bottom:3px}
+    .reviews{margin-top:19px}.reviews-heading{text-align:center;font-size:16px;margin:0 0 18px;color:#111827}.review-card{background:#fff;border:1px solid var(--line);border-radius:11px;padding:19px 14px;margin:0 0 13px;box-shadow:0 2px 4px #17203308;display:flex;align-items:center;flex-direction:column;text-align:center;min-height:174px;justify-content:center}.avatar{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;color:white;font-size:20px;font-weight:600;margin-bottom:10px;border:2px solid #ffffff;box-shadow:0 0 0 1px #00000015}.avatar-cm{background:#e9aeb8}.avatar-ro{background:#947347}.avatar-jc{background:#78a18e}.avatar-lf{background:#547ba5}.review-card strong{font-size:13px;color:#111827}.stars{color:#7928e8;font-size:20px;letter-spacing:1px;line-height:1.4;margin:3px 0 8px}.review-card p{font-size:11px;line-height:1.5;color:#334155;font-style:italic;margin:0}.review-disclaimer{font-size:10px;line-height:1.5;color:#687386;text-align:center;margin:7px 5px 0}
+    .eyebrow{font-size:11px;letter-spacing:1.2px;text-transform:uppercase;font-weight:800;opacity:.85}.hero h1{font-size:25px;line-height:1.16;margin:12px 0 9px;max-width:330px}.hero p{font-size:13px;line-height:1.6;color:#f2e8ff;max-width:350px;margin:0}.pill{display:inline-flex;gap:7px;align-items:center;background:#ffffff1c;border:1px solid #ffffff45;border-radius:30px;padding:8px 12px;margin-top:18px;font-size:11px;font-weight:700}
+    .card{background:#fff;border:1px solid var(--line);border-radius:11px;padding:19px;margin-top:17px;box-shadow:0 2px 4px #17203308}.section-title{display:flex;align-items:center;justify-content:space-between;font-size:14px;font-weight:700;margin-bottom:16px}.product{display:flex;gap:13px;align-items:center}.product-icon{height:72px;width:72px;flex:none;display:block;object-fit:cover;border-radius:9px}.product h2{font-size:16px;margin:0 0 6px}.product p{font-size:12px;color:var(--muted);margin:0 0 7px}.price{font-size:15px;color:var(--purple);font-weight:800}.price small{font-size:11px;color:var(--muted);font-weight:500}
+    label{display:block;font-size:12px;font-weight:600;margin:13px 0 7px}.field{width:100%;border:1px solid #cfd5df;border-radius:9px;padding:13px 13px;font:13px Inter,Arial;color:var(--ink);outline:none;background:white}.field:focus{border-color:var(--purple);box-shadow:0 0 0 3px #7815d11a}.hint{font-size:11px;color:var(--muted);line-height:1.5;margin-top:8px}.pix-method{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;border:1px solid #8b2bea;border-radius:10px;background:#f7f0ff;color:#7417c9;padding:13px;font-size:13px;font-weight:800;margin-top:14px}.pix-mark{width:17px;height:17px;flex:none}.payment-info{margin-top:18px;padding:20px 18px;border:1px solid var(--line);border-radius:11px;background:#f9fafb;text-align:center}.payment-info strong{font-size:14px;color:#111827}.payment-info p{font-size:12px;color:#334155;margin:13px 0 20px}.payment-total{font-size:12px;color:#334155;margin-bottom:16px}.payment-total b{font-size:15px;color:var(--purple)}.pay{width:100%;border:0;border-radius:9px;background:#5010a8;color:#fff;font-weight:800;font-size:14px;padding:14px;margin-top:0;cursor:pointer;box-shadow:0 4px 8px #32105a25}.pay:disabled{opacity:.6;cursor:wait}.section-label{display:inline-flex;align-items:center;gap:8px}.ui-icon{width:15px;height:15px;stroke:#7b18df;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}.payment-foot span{display:inline-flex;align-items:center;gap:5px}.foot-icon{width:12px;height:12px;stroke:#596579;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.payment-foot{font-size:9px;color:#697386;margin-top:12px;display:flex;justify-content:center;gap:14px}.payment-foot span{white-space:nowrap}.pix-panel{display:none;margin-top:16px;padding:15px;border:1px dashed #c8a5eb;border-radius:10px;text-align:center}.pix-panel img{width:190px;height:190px;object-fit:contain;display:block;margin:10px auto}.copy{width:100%;border:1px solid var(--purple);background:#fff;color:var(--purple);padding:12px;border-radius:8px;font-weight:700;cursor:pointer}.status{font-size:13px;color:var(--muted);line-height:1.5}.notice{font-size:11px;line-height:1.6;color:#687386;margin:14px 2px}.trust{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center}.trust div{background:#faf8fd;border-radius:9px;padding:13px 7px;font-size:11px;font-weight:700;color:#4d326b}.trust b{display:block;color:var(--purple);font-size:20px;margin-bottom:6px}.review-note{font-size:12px;line-height:1.6;color:var(--muted);text-align:center}.footer{text-align:center;font-size:10px;color:#7a8494;margin:18px 8px}
+    @media(max-width:420px){main{margin-top:15px}.hero,.trust-banner{aspect-ratio:1200/450;min-height:145px}.hero h1{font-size:clamp(17px,5vw,22px);margin:7px 0 5px}.hero p{font-size:10px;line-height:1.35}.hero-art{margin-bottom:7px}.pill{margin-top:8px;padding:6px 9px}.trust-banner{grid-template-columns:1fr 1fr}.trust-left{font-size:11px}.trust-left small,.trust-right{font-size:9px}.card{padding:16px}}
+  </style>
+</head>
+<body>
+  <div id="announcement-bar" class="w-full text-center font-bold leading-none flex items-center justify-center overflow-hidden" style="background-color:#a52cdd;color:#ffffff;white-space:nowrap;letter-spacing:-0.25px;text-align:center;width:100%;min-height:34px;padding:8px 14px;box-sizing:border-box;">
+    <span id="announcement-text" style="display:block;width:100%;max-width:100%;text-align:center;white-space:nowrap;font-size:10px;line-height:1.15;margin:0 auto;">Sua videoaula está a um passo de ser liberada! ⚡ Finalize o pagamento via PIX de R$ 28,65 e receba acesso ao conteúdo após a confirmação.</span>
+  </div>
+  <main>
+    <img class="lesson-image" src="images/videoaula-card.png" alt="Videoaula: Entenda melhor seu score de crédito. Orientações educativas sobre histórico de crédito, organização financeira e preparação antes de solicitar empréstimos.">
+    <section class="card">
+      <div class="section-title"><span>Resumo do pedido</span><span aria-hidden="true">⌄</span></div>
+      <div class="product"><img class="product-icon" src="images/product-logo.png" alt="Videoaula"><div><h2>Pagamento Pendente</h2><div class="price">R$ 28,65 <small>à vista no PIX</small></div></div></div>
+    </section>
+    <section class="card">
+      <div class="section-title"><span class="section-label"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 20c.4-3.5 2.7-5.4 6.5-5.4s6.1 1.9 6.5 5.4"/></svg>Identificação</span><button class="country" type="button" id="country-button" aria-label="País selecionado: Brasil"><svg viewBox="0 0 20 14" role="img" aria-label="Bandeira do Brasil"><rect width="20" height="14" fill="#009b3a"/><path d="M10 1.2 18.2 7 10 12.8 1.8 7Z" fill="#ffdf00"/><circle cx="10" cy="7" r="3.1" fill="#002776"/><path d="M7.2 6.2c1.8-.7 3.8-.5 5.4.3" fill="none" stroke="#fff" stroke-width=".45"/></svg><span>BR</span><span>ALTERAR PAÍS</span></button></div>
+      <form id="payment-form">
+        <label for="name">Nome completo</label><input class="field" id="name" name="name" autocomplete="name" placeholder="Seu nome completo" required minlength="3">
+        <label for="email">E-mail</label><input class="field" id="email" name="email" type="email" autocomplete="email" placeholder="seu@email.com" required>
+        <label for="phone">Telefone com DDD</label><input class="field" id="phone" name="phone" inputmode="tel" autocomplete="tel" placeholder="(00) 00000-0000" required>
+        <label for="cpf">CPF</label><input class="field" id="cpf" name="cpf" inputmode="numeric" autocomplete="off" placeholder="000.000.000-00" required maxlength="14">
+        <div class="section-title" style="margin:20px 0 0;font-size:11px;letter-spacing:.3px;color:#273247">FORMA DE PAGAMENTO</div>
+        <div class="pix-method" aria-label="Forma de pagamento selecionada: PIX"><i class="pix-mark" aria-hidden="true"></i> PIX</div>
+        <div class="payment-info"><strong>Informações de pagamento PIX</strong><p>O pagamento é instantâneo e liberação imediata.</p><div class="payment-total">Valor à vista: <b>R$ 28,65</b></div><button class="pay" id="pay-button" type="submit">＄ &nbsp; PAGAR AGORA</button><div class="payment-foot"><span><svg class="foot-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v3"/></svg>Compra Segura</span><span><svg class="foot-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8 20 6v5.2c0 5-3.3 8.2-8 10-4.7-1.8-8-5-8-10V6z"/><path d="m8.5 12 2.2 2.2 4.8-5"/></svg>Dados Protegidos</span></div></div>
+      </form>
+      <div class="pix-panel" id="pix-panel"><strong>Pagamento pendente</strong><p class="status" id="pix-status">Escaneie o QR Code ou copie o código PIX abaixo.</p><img id="pix-image" alt="QR Code PIX" hidden><textarea class="field" id="pix-code" rows="3" readonly aria-label="Código PIX copia e cola"></textarea><button class="copy" id="copy-button" type="button">Copiar código PIX</button><p class="status" id="confirm-status" aria-live="polite">Aguardando confirmação do pagamento…</p></div>
+    </section>
+    <section class="reviews" aria-label="O que dizem nossos clientes">
+      <h2 class="reviews-heading">O que dizem nossos clientes</h2>
+      <article class="review-card"><div class="avatar avatar-cm">CM</div><strong>— Carla Mendes</strong><div class="stars" aria-label="5 estrelas">★★★★★</div><p>Recebi o Dinheiro na hora! Muito prático e seguro, recomendo demais.</p></article>
+      <article class="review-card"><div class="avatar avatar-ro">RO</div><strong>— Rafael Oliveira</strong><div class="stars" aria-label="5 estrelas">★★★★★</div><p>Simples e fácil, caiu na minha conta em poucos segundo!</p></article>
+      <article class="review-card"><div class="avatar avatar-jc">JC</div><strong>— Juliana Costa, 41</strong><div class="stars" aria-label="5 estrelas">★★★★★</div><p>Meu nome era sujo e ainda assim consegui um empréstimo de 3000 reais</p></article>
+      <article class="review-card"><div class="avatar avatar-lf">LF</div><strong>— Lucas Ferreira</strong><div class="stars" aria-label="5 estrelas">★★★★★</div><p>Paguei a taxa de o valor caiu na hora simples e fácil, vou fazer a reforma da minha casa 6000k</p></article>
+    </section>
+    <img class="w-full h-auto banner-image banner-bottom" src="images/banner-inferior.png" alt="Pagamento via PIX, videoaula e acesso após confirmação do pagamento." style="display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;max-width:100%;">
+  </main>
+<script>
+const form=document.getElementById('payment-form'),btn=document.getElementById('pay-button'),panel=document.getElementById('pix-panel');let pollTimer=null;
+const digits=s=>s.replace(/\D/g,'');
+document.getElementById('country-button').addEventListener('click',()=>alert('País disponível para esta compra: Brasil (BR).')); 
+document.getElementById('cpf').addEventListener('input',e=>{let v=digits(e.target.value).slice(0,11);v=v.replace(/(\d{3})(\d)/,'$1.$2').replace(/(\d{3})(\d)/,'$1.$2').replace(/(\d{3})(\d{1,2})$/,'$1-$2');e.target.value=v});
+document.getElementById('phone').addEventListener('input',e=>{let v=digits(e.target.value).slice(0,11);if(v.length>10)v=v.replace(/(\d{2})(\d{5})(\d{4})/,'($1) $2-$3');else if(v.length>6)v=v.replace(/(\d{2})(\d{4})(\d{0,4})/,'($1) $2-$3');else if(v.length>2)v=v.replace(/(\d{2})(\d+)/,'($1) $2');e.target.value=v});
+form.addEventListener('submit',async e=>{e.preventDefault();btn.disabled=true;btn.textContent='Gerando PIX…';try{const payload={name:document.getElementById('name').value.trim(),email:document.getElementById('email').value.trim(),phone:digits(document.getElementById('phone').value),cpf:digits(document.getElementById('cpf').value)};const r=await fetch('/api/create-payment',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});const j=await r.json();if(!r.ok)throw new Error(j.error||'Não foi possível gerar o PIX.');document.getElementById('pix-code').value=j.pixCode||'';const img=document.getElementById('pix-image');if(j.pixImage){img.src=j.pixImage;img.hidden=false}else img.hidden=true;panel.style.display='block';panel.scrollIntoView({behavior:'smooth',block:'center'});pollStatus(j.transactionId)}catch(err){alert(err.message);btn.disabled=false;btn.textContent='＄  PAGAR AGORA'}});
+document.getElementById('copy-button').addEventListener('click',async()=>{const t=document.getElementById('pix-code').value;if(!t)return;try{await navigator.clipboard.writeText(t);document.getElementById('copy-button').textContent='Código copiado!'}catch{document.getElementById('pix-code').select();document.execCommand('copy')}});
+async function pollStatus(id){if(pollTimer)clearInterval(pollTimer);const check=async()=>{try{const r=await fetch('/api/check-payment?id='+encodeURIComponent(id));const j=await r.json();if(!r.ok)return;if(j.status==='paid'){clearInterval(pollTimer);document.getElementById('confirm-status').textContent='Pagamento confirmado!';if(j.videoUrl){const a=document.createElement('a');a.href=j.videoUrl;a.target='_blank';a.rel='noopener noreferrer';a.className='pay';a.style.display='block';a.style.textDecoration='none';a.textContent='ASSISTIR À VIDEOAULA';document.getElementById('confirm-status').after(a)}else document.getElementById('confirm-status').textContent='Pagamento confirmado. O link da aula ainda não foi configurado pelo vendedor.'}else if(['expired','failed','refunded'].includes(j.status)){clearInterval(pollTimer);document.getElementById('confirm-status').textContent='Esta cobrança não está mais ativa. Atualize a página para gerar outra.'}}catch{}};await check();pollTimer=setInterval(check,5000)}
+</script>
+<script>
+// Ajusta a fonte automaticamente para manter a frase centralizada em uma linha,
+// mesmo quando o texto for editado manualmente ou a tela mudar de tamanho.
+(function(){
+  const bar=document.getElementById('announcement-bar');
+  const text=document.getElementById('announcement-text');
+  if(!bar||!text)return;
+  function fitAnnouncement(){
+    // Começa com tamanho discreto e reduz apenas se a frase editada não couber.
+    const maxSize=10;
+    const minSize=6;
+    let size=maxSize;
+    text.style.fontSize=size+'px';
+    text.style.margin='0 auto';
+    text.style.textAlign='center';
+    text.style.whiteSpace='nowrap';
+    while(text.scrollWidth>bar.clientWidth-28 && size>minSize){
+      size-=0.25;
+      text.style.fontSize=size+'px';
+    }
+  }
+  fitAnnouncement();
+  window.addEventListener('resize',fitAnnouncement,{passive:true});
+  if(window.MutationObserver){
+    new MutationObserver(fitAnnouncement).observe(text,{childList:true,characterData:true,subtree:true});
+  }
+})();
+</script>
+</body></html>

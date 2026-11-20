@@ -1,0 +1,17 @@
+CONFIGURAÇÃO DO CHECKOUT
+
+1. Publique a pasta clon/ no Vercel (ou importe o projeto Git).
+2. Em Project Settings > Environment Variables, adicione:
+   VELANI_SECRET_KEY = sua Secret Key da Velani (sk_live_...)
+   VIDEO_URL = URL exclusiva da videoaula no YouTube (https://www.youtube.com/... ou https://youtu.be/...)
+3. Marque as variáveis para Production (e Preview, se for testar) e faça um novo deploy.
+4. Teste primeiro em ambiente apropriado da Velani. A cobrança está fixada em R$ 28,65 (2865 centavos).
+
+SEGURANÇA
+- Nunca coloque VELANI_SECRET_KEY no HTML, JavaScript do navegador ou repositório público.
+- O endpoint de consulta só libera VIDEO_URL se a Velani retornar status paid.
+- A página não contém avaliações fictícias, logos bancários nem promessa de aprovação de crédito.
+- O checkout requer nome, e-mail, telefone e CPF para criar a transação, conforme integração escolhida.
+
+OBSERVAÇÃO
+Este pacote contém a implementação, mas não foi publicado nem testado com uma chave real. Configure as variáveis e faça um teste de ponta a ponta antes de receber pagamentos.

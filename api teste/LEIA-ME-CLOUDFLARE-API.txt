@@ -1,0 +1,27 @@
+CONFIGURAÇÃO DA API VELANI NA CLOUDFLARE PAGES
+
+O visual e os arquivos existentes do site foram mantidos. Foram adicionadas
+Cloudflare Pages Functions em:
+
+  functions/api/create-payment.js
+  functions/api/check-payment.js
+
+Essas rotas correspondem aos endereços já usados pelo checkout:
+  POST /api/create-payment
+  GET  /api/check-payment?id=ID_DA_TRANSACAO
+
+PUBLICAÇÃO
+1. Envie o conteúdo desta pasta clon para o repositório Git conectado à Cloudflare Pages.
+2. Em Cloudflare Dashboard > Workers & Pages > seu projeto Pages > Settings > Variables and Secrets,
+   adicione:
+     VELANI_SECRET_KEY = sua chave secreta da Velani
+     VIDEO_URL = link HTTPS do YouTube da videoaula
+3. Salve e faça um novo deploy. As funções em /functions são compiladas pela integração Git.
+4. Não coloque a chave secreta em HTML, JavaScript do navegador ou repositório.
+
+IMPORTANTE
+- Este ZIP inclui o diretório functions necessário para Pages Functions.
+- O deploy por upload de assets/arrastar ZIP não compila Pages Functions. Use integração Git
+  ou Wrangler para publicar Functions.
+- Valor configurado no código para a cobrança: R$ 28,65 (2865 centavos).
+- A API não foi testada com uma cobrança real. Faça primeiro um teste controlado.
